@@ -1,0 +1,16 @@
+{# frequencies radio = 1 column of frequiencies #}
+<table class="kneeboard">
+    <thead>
+    <tr>
+        <th colspan="2" class="{{ bgColor }}">{{ label }}</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for channel in radio %}
+        <tr>
+            <td>{{ "%02d" | format(channel.preset) }}</td>
+            <td>{{ channel.label }}<br><div class="text-right"><small><i>{{ channel.nav }} {{ channel.freq | number_format(3,'.',' ') }}</i></small></div></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
