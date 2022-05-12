@@ -1,0 +1,13 @@
+{% extends "kneeboard/layout.html.twig" %}
+
+{% block navBar %}{% endblock navBar %}
+
+{% block content %}
+    <div class="kneeboard">
+        <div>COMMON FOR FIGHTERS WITH 20+ CHANNELS</div>
+        {% include "kneeboard/_frequencies-radio.html.twig" with {radio: frequencies.radio1, label: "RADIO 1 / UHF", bgColor: "bg-red"} %}
+        {% include "kneeboard/_frequencies-radio.html.twig" with {radio: frequencies.radio2, label: "RADIO 2 / VHF", bgColor: "bg-green"} %}
+    </div>
+{% endblock content %}
+
+{% block footer %}{% endblock footer %}
