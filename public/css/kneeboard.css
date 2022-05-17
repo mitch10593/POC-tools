@@ -1,5 +1,5 @@
 body {
-    background-color: #F2EFD5;
+    background-color: #efefdf;
 }
 
 body, html {
@@ -74,4 +74,10 @@ table.kneeboard td:nth-child(1) {
 .text-right {
     text-align: right; /* This puts the text into the center of the
   screen. */
+}
+
+.kneeboard-title {
+    width: 100%;
+    text-align: center;
+    font-family: "Lucida Console", "Menlo", "Monaco", "Courier", monospace;
 }
