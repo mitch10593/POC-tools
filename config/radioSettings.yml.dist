@@ -1,138 +1,181 @@
+# icon use font-awesome icons 6.1, see https://fontawesome.com/search
+# and define icon right of "fa-solid fa-" sequence (ex: "kit-medical" to use "fa-solid fa-kit-medical")
+
 radioPresets:
   radio1:
     - preset: 01
       freq: 243.000
       label: GUARD
+      icon: kit-medical
     - preset: 02
       freq: 260.000
       label: Batumi
       nav: 16X
+      icon: tower-cell
     - preset: 03
       freq: 270.000
       label: Beslan
+      icon: tower-cell
     - preset: 04
       freq: 259.000
       label: Gudauta
+      icon: tower-cell
     - preset: 05
       freq: 263.000
       label: Kutaisi
+      icon: tower-cell
       nav: 44X
     - preset: 06
       freq: 256.000
       label: Sochi-Adler
+      icon: tower-cell
     - preset: 07
       freq: 258.000
       label: Sukhumi
+      icon: tower-cell
     - preset: 08
       freq: 267.000
       label: Tbilisi
+      icon: tower-cell
       nav: 25X
     - preset: 09
       freq: 269.000
       label: Vaziani
+      icon: tower-cell
       nav: 22X
     - preset: 10
       freq: 225.000
       label: Stennis
+      icon: ship
       nav: 10X
     - preset: 11
       freq: 226.000
       label: Tarawa
+      icon: ship
       nav: 11X
     - preset: 12
       freq: 227.000
       label: Roosevelt
+      icon: ship
       nav: 12X
     - preset: 13
       freq: 228.000
       label: Forrestal
+      icon: ship
       nav: 13X
     - preset: 14
       freq: 282.200
       label: Magic
+      icon: bullseye
     - preset: 15
       freq: 291.000
       label: Package 01
+      icon: layer-group
     - preset: 16
       freq: 305.100
       label: Range Kobuleti
+      icon: circle
     - preset: 17
       freq: 290.100
       label: Texaco-1
+      icon: gas-pump
       nav: 60Y
     - preset: 18
       freq: 290.300
       label: Shell-1
+      icon: gas-pump
       nav: 62Y
     - preset: 19
       freq: 290.400
       label: Shell-2
+      icon: gas-pump
       nav: 63Y
     - preset: 20
       freq: 290.500
       label: Arco-1
+      icon: gas-pump
       nav: 64Y
 
   radio2:
     - preset: 01
       freq: 121.500
       label: GUARD
+      icon: kit-medical
     - preset: 02
       freq: 120.000
       label: Archer
+      icon: plane
     - preset: 03
       freq: 120.100
       label: Artic
+      icon: plane
     - preset: 04
       freq: 120.200
       label: Astro
+      icon: plane
     - preset: 05
       freq: 120.300
       label: Nickel
+      icon: plane
     - preset: 06
       freq: 120.400
       label: Nitro
+      icon: plane
     - preset: 07
       freq: 120.500
       label: Ninja
+      icon: plane
     - preset: 08
       freq: 120.600
       label: Bat
+      icon: helicopter
     - preset: 09
       freq: 120.700
       label: Bengal
+      icon: helicopter
     - preset: 10
       freq: 120.800
       label: Blade
+      icon: helicopter
     - preset: 11
       freq: 120.900
       label: Gordon
+      icon: jet-fighter
     - preset: 12
       freq: 121.100
       label: Gypsy
+      icon: jet-fighter
     - preset: 13
       freq: 121.200
       label: Gunstar
+      icon: jet-fighter
     - preset: 14
       freq: 121.300
       label: Leica
+      icon: jet-fighter
     - preset: 15
       freq: 121.400
       label: Lucid
+      icon: jet-fighter
     - preset: 16
       freq: 121.600
       label: Lusty
+      icon: jet-fighter
     - preset: 17
       freq: 121.700
       label: Lion
+      icon: jet-fighter
     - preset: 18
       freq: 118.800
       label: Colt
       nav: AFAC Bizmuth
+      icon: walkie-talkie
     - preset: 19
       freq: 118.900
       label: Dodge
+      icon: walkie-talkie
       nav: AFAC Agate
     - preset: 20
       freq: 118.850
       label: JTAC 3
+      icon: walkie-talkie
